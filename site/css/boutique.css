@@ -1,0 +1,132 @@
+.facture_form {
+    width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.facture_form h2 {
+    color: black;
+}
+
+.facture_form table {
+    width: 800px;
+}
+
+.boutique_facture tr td {
+    border: 1px solid #AAAAAA;
+    padding: 3px;
+    margin: 3px;
+}
+
+.panier_table form {
+    display: inline;
+}
+
+.centre {
+    text-align: center;
+}
+
+.droite {
+    text-align: right;
+}
+
+#kamino-jango-loading-layer {
+    display: none !important;
+}
+
+.kamino-loading-layer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.kamino-loading-layer > div {
+    display: block;
+    height: 50%;
+    max-height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+}
+
+.kamino-loading-layer > div > img {
+    height: 100%;
+    width: auto;
+    max-width: 50px;
+    max-height: 50px;
+    margin: auto;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 100%;
+
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 1000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.panier_tete{
+    cursor:pointer;
+}
+div[data-type='paiement'] .panier_tete{
+    cursor:default;
+}
+
+@-ms-keyframes spin {
+    from {
+        -ms-transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

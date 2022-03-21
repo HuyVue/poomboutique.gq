@@ -1,0 +1,72 @@
+.alerte {
+	border: 1px solid red;
+	color: red;
+	background-color: white;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.put_forward {
+}
+
+
+.put_forward a+a {
+	border: 1px solid black;
+	padding: 5px;
+	font-weight: bold;
+}
+
+#preloadImages {
+    display: none;
+}
+
+#debugTop {
+    border: 2px solid #0000A2; display: block; word-wrap: break-word; width: 500px; position: fixed; top: 0; left: 0; height: 400px; overflow-y: scroll; overflow-x: visible; background-color: white; color: black; z-index: 9999; opacity: 0.9;
+}
+
+#debugBottom {
+    border: 2px solid #A70000; display: block; word-wrap: break-word; width: 500px; position: fixed; bottom: 0; right: 0; height: 400px; overflow-y: scroll; overflow-x: visible; background-color: white; color: black; z-index: 9999; opacity: 0.9;
+}
+
+.debugTitle {
+    font-size: 14px; font-weight: bold; color: #000000;
+}
+
+.debugKey {
+    color: #006800; font-weight: bold;
+}
+
+.debugKeyUnder {
+    color: #006800; font-weight: normal;
+}
+
+.debugValue {
+    color: 2E458D;
+}
+
+.debugType {
+    color: #666;
+}
+
+#closeDebug {
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    color: black;
+}
+
+.debugUnderLevel {
+    padding-left: 25px;
+}
+
+.google_map_api
+{
+    height: 300px;
+}
+
+.in_selection {
+    text-decoration: underline;
+    color:red;
+}
